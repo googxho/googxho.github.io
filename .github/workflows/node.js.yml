@@ -46,6 +46,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: main
         FOLDER: docs
+        FOLDER: public
         TARGET_FOLDER : docs
         GIT_CONFIG_EMAIL: git@googxho.com
         REPOSITORY_NAME: googxho/googxho.github.io
